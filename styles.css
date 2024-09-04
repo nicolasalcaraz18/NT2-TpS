@@ -1,0 +1,35 @@
+.Titulo_form{
+    padding: 10px;
+    text-rendering: optimizeLegibility;
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 1.15;
+    color: var(--gray90);
+    vertical-align: baseline;
+}
+.form-container {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40;
+    color: white;
+    padding: 10px 0;
+}
+
+.footer .list-inline-item a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer .list-inline-item a:hover {
+    text-decoration: underline;
+    color: #f8f9fa;
+}
