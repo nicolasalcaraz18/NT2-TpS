@@ -109,4 +109,19 @@ async function mostrarPendientesEj9(){
     }
 }
 
-mostrarPendientesEj9()
+//mostrarPendientesEj9()
+
+async function obtenerArticulos(){
+    try {
+        const response = await axios.get("https://jsonplaceholder.typicode.com/posts")
+        return response.data
+    } catch (error) {
+        throw error;
+    }
+}
+
+obtenerArticulos().then(datos=>{
+    console.log("datos cargados: ", datos)
+}).catch(error=>{
+    console.log(error)
+})
