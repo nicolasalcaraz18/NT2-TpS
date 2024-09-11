@@ -1,0 +1,25 @@
+{
+  "name": "nt2-tps",
+  "version": "1.0.0",
+  "description": "trabajos durante la cursada",
+  "main": "index.js",
+  "scripts": {
+    "start": "node js/index.js",
+    "dev": "node --watch js/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolasalcaraz18/NT2-TpS.git"
+  },
+  "author": "nicolas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicolasalcaraz18/NT2-TpS/issues"
+  },
+  "homepage": "https://github.com/nicolasalcaraz18/NT2-TpS#readme",
+  "dependencies": {
+    "axios": "^1.7.7"
+  }
+}
